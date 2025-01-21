@@ -13,6 +13,10 @@
     --booleando-discount: #ff0000;
 }
 
+body{
+    font-family: "Heebo", serif;
+}
+
 /* Utilities */
 
 .container{
