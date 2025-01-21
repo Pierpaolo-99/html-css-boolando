@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --booleando-primary: #ff6900;
+    --booleando-light: #ffffff;
+    --booleando-dark: #000000;
+    --booleando-lighter: #e7e7e6;
+    --booleando-secondary: #008000;
+    --booleando-discount: #ff0000;
+}
+
+/* Utilities */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fixed{
+    position: fixed;
+    z-index: 10;
+}
+
+/* Header */
+
+header{
+    background-color: var(--booleando-primary);
+    padding: 1rem;
+
+    nav,
+    .options{
+        gap: 1rem;
+
+        a{
+            color: var(--booleando-light);
+            text-decoration: none;
+
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
