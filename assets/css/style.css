@@ -79,6 +79,11 @@ header{
         position: absolute;
         right: 0;
         top: 1rem;
+
+        &:hover{
+            color: var(--booleando-discount);
+            cursor: pointer;
+        }
     }
 
     .text{
