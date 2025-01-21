@@ -109,3 +109,20 @@ header{
         text-decoration: line-through;
     }
 }
+
+/* Footer */
+
+footer{
+    background-color: var(--booleando-dark);
+    color: var(--booleando-light);
+    padding: 1rem;
+
+    .info,
+    .icon{
+        gap: 1rem;
+    }
+
+    .footer_text{
+        padding-bottom: 0.5rem;
+    }
+}
