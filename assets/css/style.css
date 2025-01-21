@@ -69,6 +69,7 @@ header{
 
 .card{
     position: relative;
+    margin-bottom: 2rem;
 
     .heart{
         width: 50px;
@@ -86,7 +87,7 @@ header{
         padding: 0.5rem;
         color: var(--booleando-light);
         position: absolute;
-        bottom: 3rem;
+        bottom: 6.5rem;
         left: 3.5rem;
     }
 
@@ -97,6 +98,14 @@ header{
         color: var(--booleando-light);
         position: absolute;
         left: 0;
-        bottom: 3rem;
+        bottom: 6.5rem;
+    }
+
+    .now{
+        color: var(--booleando-discount);
+    }
+
+    .before{
+        text-decoration: line-through;
     }
 }
