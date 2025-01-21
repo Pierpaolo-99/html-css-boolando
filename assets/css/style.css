@@ -40,6 +40,10 @@
     z-index: 10;
 }
 
+.py-3{
+    padding: 3rem 0;
+}
+
 /* Header */
 
 header{
@@ -61,3 +65,38 @@ header{
     }
 }
 
+/* Main */
+
+.card{
+    position: relative;
+
+    .heart{
+        width: 50px;
+        font-size: 3rem;
+        text-align: center;
+        background-color: var(--booleando-light);
+        position: absolute;
+        right: 0;
+        top: 1rem;
+    }
+
+    .text{
+        background-color: var(--booleando-secondary);
+        display: inline-block;
+        padding: 0.5rem;
+        color: var(--booleando-light);
+        position: absolute;
+        bottom: 3rem;
+        left: 3.5rem;
+    }
+
+    .discount{
+        background-color: var(--booleando-discount);
+        display: inline-block;
+        padding: 0.5rem;
+        color: var(--booleando-light);
+        position: absolute;
+        left: 0;
+        bottom: 3rem;
+    }
+}
